@@ -1,6 +1,9 @@
 Redundancy
 ====
 
+<details>
+  <summary>Summary</summary>
+  
 - Redundancy: **duplication of critical data or services** with the intention of increased reliability of the system.
 - Server failover
   - Remove single points of failure and provide backups (e.g. server failover).
@@ -9,7 +12,8 @@ Redundancy
   - No central service managing state or orchestrating activities.
   - New servers can be added without special conditions or knowledge.
   - No single point of failure.
-  
+
+</details>
 
 [Redundancy](https://en.wikipedia.org/wiki/Redundancy_(engineering)) is the duplication of critical components or functions of a system with the intention of increasing the reliability of the system, usually in the form of a backup or fail-safe, or to improve actual system performance. For example, if there is only one copy of a file stored on a single server, then losing that server means losing the file. Since losing data is seldom a good thing, we can create duplicate or redundant copies of the file to solve this problem.
 
