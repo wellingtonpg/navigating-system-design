@@ -9,3 +9,5 @@ Redundancy
   - No central service managing state or orchestrating activities.
   - New servers can be added without special conditions or knowledge.
   - No single point of failure.
+  
+![](../img/basics/RedundancyAndReplication.png)
