@@ -3,7 +3,7 @@ Key characteristics of a distributed system include Scalability, Reliability, Av
 
 ## Scalability
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - The capability of a system to grow and manage increased demand.
 - A system that can continuously evolve to support growing amount of work is scalable.
@@ -26,7 +26,7 @@ Good examples of horizontal scaling are [Cassandra](https://en.wikipedia.org/wik
 
 ## Reliability
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - Reliability is the probability that a system will fail in a given period.
 - A distributed system is reliable if it keeps delivering its service even when one or multiple components fail.
@@ -42,7 +42,7 @@ Obviously, redundancy has a cost and a reliable system has to pay that to achiev
 
 ## Availability
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - Availability is the time a system remains operational to perform its required function in a specific period.
 - Measured by the percentage of time that a system remains operational under normal conditions.
@@ -61,7 +61,7 @@ If a system is reliable, it is available. However, if it is available, it is not
 
 ## Efficiency
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - Latency: response time, the delay to obtain the first piece of data.
 - Bandwidth: throughput, amount of data delivered in a given time.
@@ -76,7 +76,7 @@ The complexity of operations supported by distributed data structures (e.g., sea
 
 ## Serviceability / Manageability
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - Easiness to operate and maintain the system.
 - Simplicity and spend with which a system can be repaired or maintained.
