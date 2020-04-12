@@ -2,7 +2,7 @@ Redundancy
 ====
 
 <details>
-  <summary>Summary</summary>
+  <summary>Click to expand summary.</summary>
   
 - Redundancy: **duplication of critical data or services** with the intention of increased reliability of the system.
 - Server failover
