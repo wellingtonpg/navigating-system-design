@@ -1,6 +1,5 @@
-[Grokking System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
+Navigating the System Design Interview
 ====
-Source: [educative](https://www.educative.io)
 
 ## Interview Process
 - Scope the problem
