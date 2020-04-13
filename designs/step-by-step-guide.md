@@ -35,8 +35,12 @@ It is always a good idea to estimate the scale of the system we’re going to de
 Define what APIs are expected from the system. This will not only establish the exact contract expected from the system but will also ensure if we haven’t gotten any requirements wrong. Some examples of APIs for our Twitter-like service will be:
 
 ```python
-postTweet(user_id, tweet_data, tweet_location, user_location, timestamp, …)  
+postTweet(user_id, tweet_data, tweet_location, user_location, timestamp, …)
+```
+```python
 generateTimeline(user_id, current_time, user_location, …)  
+```
+```python
 markTweetFavorite(user_id, tweet_id, timestamp, …)  
 ```
 
@@ -60,7 +64,8 @@ For Twitter, at a high-level, we will need multiple application servers to serve
 ## Step 6: Detailed design
 Dig deeper into two or three major components; interviewer’s feedback should always guide us to what parts of the system need further discussion. We should be able to present different approaches, their pros and cons, and explain why we will prefer one approach on the other. Remember there is no single answer; the only important thing is to consider tradeoffs between different options while keeping system constraints in mind.
 
-* Since we will be storing a massive amount of data, how should we partition our data to distribute it to multiple databases? * Should we try to store all the data of a user on the same database? What issue could it cause?
+* Since we will be storing a massive amount of data, how should we partition our data to distribute it to multiple databases?
+* Should we try to store all the data of a user on the same database? What issue could it cause?
 * How will we handle hot users who tweet a lot or follow lots of people?
 * Since users’ timeline will contain the most recent (and relevant) tweets, should we try to store our data in such a way that is optimized for scanning the latest tweets?
 * How much and at which layer should we introduce cache to speed things up?
