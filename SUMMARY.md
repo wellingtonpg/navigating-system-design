@@ -16,6 +16,7 @@
   - [Client Server Communication](basics/client-server-communication.md)
 
 * Designs
+  - [System Design Interviews: A step by step guide](designs/step-by-step-guide.md)
   - [Short URL Service](designs/short-url.md)
   - [Pastebin](designs/pastebin.md)
   - [Instagram](designs/instagram.md)
