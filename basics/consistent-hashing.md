@@ -28,16 +28,37 @@ Here’s how consistent hashing works:
     - Hash it to a single integer.
     - Move clockwise on the ring until finding the first cache it encounters.
     - That cache is the one that contains the key. See animation below as an example: key1 maps to cache A; key2 maps to cache C.
-
+    
+<details>
+  <summary>Phase 1</summary>
+    
 ![](../img/basics/consistent-hashing-1.png)
 
+</details>
+<details>
+  <summary>Phase 2</summary>
+    
 ![](../img/basics/consistent-hashing-2.png)
 
+</details>
+<details>
+  <summary>Phase 3</summary>
+    
 ![](../img/basics/consistent-hashing-3.png)
 
+</details>
+<details>
+  <summary>Phase 4</summary>
+    
 ![](../img/basics/consistent-hashing-4.png)
 
+</details>
+<details>
+  <summary>Phase 5</summary>
+    
 ![](../img/basics/consistent-hashing-5.png)
+    
+</details>
 
 To add a new server, say D, keys that were originally residing at C will be split. Some of them will be shifted to D, while other keys will not be touched.
 
