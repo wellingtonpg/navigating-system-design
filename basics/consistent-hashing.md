@@ -72,7 +72,7 @@ If the hash function “mixes well,” as the number of replicas increases, the 
 
 # Summary
 ## Simple hashing
-Problems of simple hashing function `key % n` (`n` is the number of servsers):
+Problems of simple hashing function `key % n` (`n` is the number of servers):
 - It is not horizontally scalable. Whenever a new cache host is added to the system, all existing mappings are broken.
 - It may not be load balanced, especially for non-uniformly distributed data. Some servers will become hot spots.
 
