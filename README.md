@@ -22,6 +22,7 @@ Navigating the System Design Interview
     - Identifying and resolving bottlenecks
 
 ## Distributed System Design Basics
+- [System Design Basics](basics/system-design-basics.md)
 - [Key Characterics](basics/key-characteristics.md)
 - [Loading balancing](basics/load-balancing.md)
 - [Caching](basics/caching.md)
