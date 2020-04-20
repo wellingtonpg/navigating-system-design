@@ -49,3 +49,4 @@ Navigating the System Design Interview
 - [Yelp](designs/yelp.md)
 - [Uber Backend](designs/uber-backend.md)
 - [Ticketmaster](designs/ticketmaster.md)
+- [Additional Resources](designs/additional-resources.md)
