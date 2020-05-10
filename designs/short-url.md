@@ -114,7 +114,8 @@ One thing to note here is that since there will be a lot of duplicate requests (
 ### 💡Once we've finalized the requirements, it's always a good idea to define the system APIs. This should explicitly state what is expected from the system.
 We can have SOAP or REST APIs to expose the functionality of our service. Following could be the definitions of the APIs for creating and deleting URLs:
 
-### <div align="center">createURL(api_dev_key, original_url, custom_alias=None, user_name=None, expire_date=None)</div>
+#### <div align="center">createURL(api_dev_key, original_url, custom_alias=None, user_name=None, expire_date=None)</div>
+
 **Parameters**:
 * api_dev_key (string): The API developer key of a registered account. This will be used to, among other things, throttle users based on their allocated quota.
 * original_url (string): Original URL to be shortened.
@@ -125,7 +126,7 @@ We can have SOAP or REST APIs to expose the functionality of our service. Follow
 **Returns**: (string)
 A successful insertion returns the shortened URL; otherwise, it returns an error code.
 
-### <div align="center">deleteURL(api_dev_key, url_key)</div>
+#### <div align="center">deleteURL(api_dev_key, url_key)</div>
 Where “url_key” is a string representing the shortened URL to be retrieved. A successful deletion returns ‘URL Removed’.
 
 **How do we detect and prevent abuse?** A malicious user can put us out of business by consuming all URL keys in the current design. To prevent abuse, we can limit users via their api_dev_key. Each api_dev_key can be limited to a certain number of URL creations and redirections per some time period (which may be set to a different duration per developer key).
