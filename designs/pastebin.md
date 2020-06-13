@@ -165,7 +165,3 @@ Please see [Designing a URL Shortening service](./short-url.md).
 
 ## 12. Security and Permissions
 Please see [Designing a URL Shortening service](./short-url.md).
-
-## Summary
-![overview](../img/pastebin-overview.png)
-![summary](../img/pastebin-detail.png)
