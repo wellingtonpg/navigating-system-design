@@ -68,7 +68,3 @@ Cassandra or key-value stores in general, always maintain a certain number of re
 
 ![](../img/instagram-3.png)
 ![](../img/instagram-4.png)
-
-## Summary
-![overview](../img/instagram-overview.png)
-![summary](../img/instagram-detail.png)
