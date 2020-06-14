@@ -23,6 +23,8 @@
   - [Dropbox](designs/dropbox.md)
   - [Twitter](designs/twitter.md)
   - [Youtube](designs/youtube.md)
+  - [Typehead Suggestion](designs/typehead.md)
+  - [API Rate Limiter](designs/rate-limiter.md)
   - [Twitter Search](designs/twitter-search.md)
   - [Web Crawler](designs/web-crawler.md)
   - [Facebook Newsfeed](designs/facebook-newsfeed.md)
